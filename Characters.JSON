@@ -4,7 +4,7 @@
       "characterName": "Sophia Pony",
       "age": "120",
       "height": "1.65",
-      "description": "An <b>elven ranger</b> with a <color=green>keen eye</color> and a mysterious past."
+      "description": "An <b>elven ranger</b> with a <color=green>keen eye</color> and a <i>mysterious past.</i>"
     },
     {
       "characterName": "Clara Jackson",
@@ -20,6 +20,7 @@
     }
   ]
 }
+
 
 
 
