@@ -4,22 +4,60 @@
       "characterName": "Sophia Pony",
       "age": "120",
       "height": "1.65",
+      "weight": "65kg"
+      "hobby": "Flowers"
+      "quirk": "Quick to anger"
+      "birthplace": "Starfall"
+      "concept": "Gangster"
       "description": "An <b>elven ranger</b> with a <color=green>keen eye</color> and a <i>mysterious past.</i>"
     },
     {
       "characterName": "Clara Jackson",
       "age": "75",
       "height": "1.45",
+      "weight": "65kg"
+      "hobby": "Flowers"
+      "quirk": "Quick to anger"
+      "birthplace": "Starfall"
+      "concept": "Gangster"
       "description": "Clara Jackson is a woman from <color=blue>Lilywood.</color>"
     },
     {
       "characterName": "Shelby Thomas",
       "age": "30",
       "height": "1.70",
+      "weight": "65kg"
+      "hobby": "Flowers"
+      "quirk": "Quick to anger"
+      "birthplace": "Starfall"
+      "concept": "Gangster"
       "description": "Shelby Thomas is a woman from Brookhaven. \nShe is a brash woman.\n"
+    }
+    {
+      "characterName": "Nova Sparkmore",
+      "age": "30",
+      "height": "1.70",
+      "weight": "65kg"
+      "hobby": "Flowers"
+      "quirk": "Quick to anger"
+      "birthplace": "Starfall"
+      "concept": "Gangster"
+      "description": "Shelby Thomas is a woman from Brookhaven. \n\n \nShe is a brash woman.\n"
+    }
+    {
+      "characterName": "Tobias (Laz) Colmb",
+      "age": "30",
+      "height": "1.70",
+      "weight": "65kg"
+      "hobby": "Flowers"
+      "quirk": "Quick to anger"
+      "birthplace": "Starfall"
+      "concept": "Gangster"
+      "description": "Shelby Thomas is a woman from Brookhaven. \n\nShe is a brash woman.\n\n"
     }
   ]
 }
+
 
 
 
