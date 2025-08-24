@@ -2,7 +2,7 @@
   "characters": [
     {
       "characterName": "Sophia Pony",
-      "age": "120",
+      "age": "30",
       "height": "1.65",
       "weight": "65kg",
       "hobby": "Flowers",
@@ -68,4 +68,5 @@
     }
   ]
 }
+
 
