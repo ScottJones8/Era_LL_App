@@ -9,7 +9,7 @@
       "quirk": "Quick to anger"
       "birthplace": "Starfall"
       "concept": "Gangster"
-      "description": "An <b>elven ranger</b> with a <color=green>keen eye</color> and a <i>mysterious past.</i>"
+      "description": "An <b>elven ranger</b> with a <color=red>keen eye</color> and a <i>mysterious past.</i>"
     },
     {
       "characterName": "Clara Jackson",
@@ -57,6 +57,7 @@
     }
   ]
 }
+
 
 
 
