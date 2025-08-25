@@ -42,7 +42,7 @@
       "quirk": "Quick to anger",
       "birthplace": "Starfall",
       "concept": "Gangster",
-      "description": "Shelby Thomas is a woman from Brookhaven. \n\n \nShe is a brash woman.\n"
+      "description": "Nova Sparkmore is a lad from City."
     },
     {
       "characterName": "Tobias (Laz) Colmb",
@@ -53,7 +53,7 @@
       "quirk": "Quick to anger",
       "birthplace": "Starfall",
       "concept": "Gangster",
-      "description": "Shelby Thomas is a woman from Brookhaven. \n\nShe is a brash woman.\n\n"
+      "description": "Tobias Colmb is a oldtimer from the White Cross DC"
     },
     {
     "characterName": "Lilith",
@@ -68,6 +68,7 @@
     }
   ]
 }
+
 
 
 
