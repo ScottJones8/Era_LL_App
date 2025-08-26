@@ -31,7 +31,7 @@
       "quirk": "Quick to anger",
       "birthplace": "Starfall",
       "concept": "Gangster",
-      "description": "<color=green>Shelby Thomas</color> is a woman from Brookhaven. \nShe is a brash woman.\n"
+      "description": "<color=red>Shelby Thomas</color> is a woman from Brookhaven. \nShe is a brash woman.\n"
     },
     {
       "characterName": "Nova Sparkmore",
@@ -68,6 +68,7 @@
     }
   ]
 }
+
 
 
 
