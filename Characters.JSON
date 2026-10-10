@@ -79,7 +79,7 @@
     },
     {
       "characterName": "Melody",
-      "age": "Looks around 21",
+      "age": "Looks around 20",
       "height": "1.72",
       "weight": "Weightless",
       "hobby": "Music",
@@ -87,6 +87,17 @@
       "birthplace": "Unknown",
       "concept": "Singer",
       "description": "Melody is Hails Ethereal, a young woman who loves music, is energetic, clever, Quick-witted and she is someone who can actually keep up with his humour. Where Hail cracks jokes, She cracks them back. Where Hail acts immature, She joins in. Where Hail becomes serious, She immediately notices. The relationship is effortless, Possibly the easiest bond in the party. She loves to sing and genaraly is a very likeable Ethereal."
+    },
+    {
+      "characterName": "Aurelia",
+      "age": "Looks around 23",
+      "height": "1.79",
+      "weight": "Weightless",
+      "hobby": "Tea",
+      "quirk": "",
+      "birthplace": "Unknown",
+      "concept": "Lawer",
+      "description": "Aurelia is A young woman around 23 years old, Calm, Elegant, Patient, Thoughtful. Where Fallon charges ahead, Aurelia thinks first. Aurelia is something Fallon has never really had... Someone who genuinely listens. Not a parent struggling to survive. Not siblings she has to protect. Not military superiors. An equal. She talks with Fallon openly, even joking with her on occasion, but is known for moments of thoughtful silence."
     }
   ]
 }
