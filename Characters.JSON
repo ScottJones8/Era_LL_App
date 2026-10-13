@@ -120,6 +120,17 @@
       "birthplace": "Unknown",
       "concept": "Artist",
       "description": "Cassian is Silas' Ethereal. Elegant, Cultured, Educated, Charismatic, Appreciative of beauty. He genuinely enjoys art, understands composition and understands aesthetics. As such him a Silas get along very well, the two immediately develop a relationship that feels less like partners and more like critics discussing a gallery."
+    },
+    {
+      "characterName": "Jackson Zolock",
+      "age": "5",
+      "height": "0.45",
+      "weight": "10kg",
+      "hobby": "Art",
+      "quirk": "",
+      "birthplace": "Unknown",
+      "concept": "Artist",
+      "description": "The best boy."
     }
   ]
 }
