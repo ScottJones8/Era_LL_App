@@ -131,6 +131,17 @@
       "birthplace": "Unknown",
       "concept": "Artist",
       "description": "The best boy."
+    },
+    {
+      "characterName": "Lumi",
+      "age": "Unknown",
+      "height": "1.85",
+      "weight": "70kg",
+      "hobby": "",
+      "quirk": "",
+      "birthplace": "Unknown",
+      "concept": "",
+      "description": "The group met Lumi in the Containment facility, having admitted themself due to strange issues with there ethereal... So they say. The group had an unusual experience with her when they arrived back in Stardust City."
     }
   ]
 }
