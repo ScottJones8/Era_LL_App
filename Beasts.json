@@ -81,7 +81,7 @@
       "specialities": "Linked to nearby alarms, sets them off when engaged.",
       "ultimate": "",
       "spells": "",
-      "image": "",
+      "image": "images/beasts/Alarmbot.png",
       "hidden": false
     },
     {
@@ -95,7 +95,7 @@
       "specialities": "Cannot move.\nSelf-destructs when destroyed, AoE 5.",
       "ultimate": "",
       "spells": "Micro Missiles",
-      "image": "",
+      "image": "images/beasts/Defence Turret.png",
       "hidden": false
     },
     {
@@ -109,7 +109,7 @@
       "specialities": "When dealing damage, add Poisoned status.",
       "ultimate": "",
       "spells": "",
-      "image": "",
+      "image": "images/beasts/Stinger.png",
       "hidden": false
     },
     {
@@ -123,7 +123,7 @@
       "specialities": "",
       "ultimate": "",
       "spells": "Barrage\nMagic Hammer\nSelf-Destruct",
-      "image": "",
+      "image": "images/beasts/Grumpeye.png",
       "hidden": false
     },
     {
@@ -137,7 +137,7 @@
       "specialities": "",
       "ultimate": "",
       "spells": "Electroshock",
-      "image": "",
+      "image": "images/beasts/Entrail.png",
       "hidden": false
     },
     {
@@ -151,7 +151,7 @@
       "specialities": "",
       "ultimate": "",
       "spells": "",
-      "image": "",
+      "image": "images/beasts/Charger.png",
       "hidden": false
     },
     {
@@ -165,7 +165,7 @@
       "specialities": "Instant Concealment\nSilent Killer",
       "ultimate": "Titan",
       "spells": "Earthquake\nRapid Growth",
-      "image": "",
+      "image": "images/beasts/Vineworm.png",
       "hidden": false
     }
   ]
