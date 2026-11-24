@@ -1,8 +1,8 @@
 {
     "beasts": [
         {
-            "id": "Giganticlaw1",
-            "name": "Giganticlaw",
+            "id": "Giganticlaw",
+            "name": "Giganticlaw1",
             "type": "Crawler",
             "prevalence": "Common",
             "threatLevel": "Minimal",
