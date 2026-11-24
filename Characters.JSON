@@ -18,7 +18,8 @@
       "buffText": "",
       "image": "images/characters/hail-warick.jpg",
       "specialImage": "",
-      "extraImage": ""
+      "extraImage": "",
+      "page": "Ash"
     },
     {
       "characterName": "Thalisteen",
@@ -38,7 +39,8 @@
       "buffText": "",
       "image": "images/characters/thalisteen.jpg",
       "specialImage": "",
-      "extraImage": ""
+      "extraImage": "",
+      "page": "Caroline"
     },
     {
       "characterName": "Fallon Vega",
@@ -58,7 +60,29 @@
       "buffText": "",
       "image": "images/characters/fallon-vega.jpg",
       "specialImage": "",
-      "extraImage": ""
+      "extraImage": "",
+      "page": "Beth"
+    },
+    {
+      "characterName": "Happy Salazar",
+      "age": "",
+      "height": "",
+      "weight": "",
+      "hobby": "Recording stories",
+      "quirk": "Curious",
+      "birthplace": "",
+      "concept": "Former scientist",
+      "description": "Happy Salazar is a sphinx-like Sen and former scientist whose mind was twisted by an unknown incident. Once obsessed with understanding the world through science, he now approaches life as though it's one grand story unfolding before him.\n\nTo him, life is most interesting when opposing forces collide. What happens when a sword meets a shield? Who breaks first? What unexpected outcome emerges from their struggle? He doesn't necessarily care who wins; he's fascinated by what happens along the way.\n\nHis Ethereal appears as a tabby cat, and in combat takes the form of a great, fearsome feline beast.",
+      "group": "player",
+      "dead": false,
+      "hidden": false,
+      "buttonLabel": "",
+      "specialText": "",
+      "buffText": "",
+      "image": "images/characters/happy.jpg",
+      "specialImage": "",
+      "extraImage": "",
+      "page": "Seb"
     },
     {
       "characterName": "Silas Duvall",
@@ -78,7 +102,8 @@
       "buffText": "",
       "image": "images/characters/silas-duvall.jpg",
       "specialImage": "",
-      "extraImage": ""
+      "extraImage": "",
+      "page": ""
     },
     {
       "characterName": "Aurelia",
@@ -98,7 +123,8 @@
       "buffText": "",
       "image": "images/characters/aurelia.jpg",
       "specialImage": "images/characters/aurelia-special.jpg",
-      "extraImage": ""
+      "extraImage": "",
+      "page": ""
     },
     {
       "characterName": "Cassian",
@@ -118,7 +144,8 @@
       "buffText": "",
       "image": "images/characters/cassian.jpg",
       "specialImage": "images/characters/cassian-special.jpg",
-      "extraImage": ""
+      "extraImage": "",
+      "page": ""
     },
     {
       "characterName": "Jackson Zolock",
@@ -138,7 +165,8 @@
       "buffText": "",
       "image": "images/characters/jackson-zolock.jpg",
       "specialImage": "",
-      "extraImage": ""
+      "extraImage": "",
+      "page": ""
     },
     {
       "characterName": "Kabesh",
@@ -158,7 +186,8 @@
       "buffText": "",
       "image": "images/characters/kabesh.jpg",
       "specialImage": "images/characters/kabesh-special.jpg",
-      "extraImage": ""
+      "extraImage": "",
+      "page": ""
     },
     {
       "characterName": "Lumi",
@@ -178,7 +207,8 @@
       "buffText": "",
       "image": "images/characters/lumi.jpg",
       "specialImage": "",
-      "extraImage": ""
+      "extraImage": "",
+      "page": ""
     },
     {
       "characterName": "Melody",
@@ -198,7 +228,8 @@
       "buffText": "",
       "image": "images/characters/melody.jpg",
       "specialImage": "images/characters/melody-special.jpg",
-      "extraImage": ""
+      "extraImage": "",
+      "page": ""
     },
     {
       "characterName": "Thlaar",
@@ -218,7 +249,8 @@
       "buffText": "",
       "image": "images/characters/thlaar.jpg",
       "specialImage": "",
-      "extraImage": ""
+      "extraImage": "",
+      "page": ""
     },
     {
       "characterName": "Yara",
@@ -238,7 +270,8 @@
       "buffText": "",
       "image": "images/characters/yara.jpg",
       "specialImage": "",
-      "extraImage": ""
+      "extraImage": "",
+      "page": ""
     }
   ]
 }
