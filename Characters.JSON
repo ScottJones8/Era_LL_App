@@ -19,7 +19,8 @@
       "image": "images/characters/hail-warick.jpg",
       "specialImage": "",
       "extraImage": "",
-      "page": "Ash"
+      "page": "Ash",
+      "altForm": false
     },
     {
       "characterName": "Thalisteen",
@@ -40,7 +41,8 @@
       "image": "images/characters/thalisteen.jpg",
       "specialImage": "",
       "extraImage": "",
-      "page": "Caroline"
+      "page": "Caroline",
+      "altForm": false
     },
     {
       "characterName": "Fallon Vega",
@@ -61,7 +63,8 @@
       "image": "images/characters/fallon-vega.jpg",
       "specialImage": "",
       "extraImage": "",
-      "page": "Beth"
+      "page": "Beth",
+      "altForm": false
     },
     {
       "characterName": "Happy Salazar",
@@ -82,7 +85,8 @@
       "image": "images/characters/happy.jpg",
       "specialImage": "",
       "extraImage": "",
-      "page": "Seb"
+      "page": "Seb",
+      "altForm": false
     },
     {
       "characterName": "Silas Duvall",
@@ -103,7 +107,8 @@
       "image": "images/characters/silas-duvall.jpg",
       "specialImage": "",
       "extraImage": "",
-      "page": ""
+      "page": "",
+      "altForm": false
     },
     {
       "characterName": "Aurelia",
@@ -124,7 +129,8 @@
       "image": "images/characters/aurelia.jpg",
       "specialImage": "images/characters/aurelia-special.jpg",
       "extraImage": "",
-      "page": ""
+      "page": "",
+      "altForm": true
     },
     {
       "characterName": "Cassian",
@@ -145,7 +151,8 @@
       "image": "images/characters/cassian.jpg",
       "specialImage": "images/characters/cassian-special.jpg",
       "extraImage": "",
-      "page": ""
+      "page": "",
+      "altForm": true
     },
     {
       "characterName": "Jackson Zolock",
@@ -166,7 +173,8 @@
       "image": "images/characters/jackson-zolock.jpg",
       "specialImage": "",
       "extraImage": "",
-      "page": ""
+      "page": "",
+      "altForm": false
     },
     {
       "characterName": "Kabesh",
@@ -187,7 +195,8 @@
       "image": "images/characters/kabesh.jpg",
       "specialImage": "images/characters/kabesh-special.jpg",
       "extraImage": "",
-      "page": ""
+      "page": "",
+      "altForm": true
     },
     {
       "characterName": "Lumi",
@@ -208,7 +217,8 @@
       "image": "images/characters/lumi.jpg",
       "specialImage": "",
       "extraImage": "",
-      "page": ""
+      "page": "",
+      "altForm": false
     },
     {
       "characterName": "Melody",
@@ -229,7 +239,8 @@
       "image": "images/characters/melody.jpg",
       "specialImage": "images/characters/melody-special.jpg",
       "extraImage": "",
-      "page": ""
+      "page": "",
+      "altForm": true
     },
     {
       "characterName": "Thlaar",
@@ -250,7 +261,8 @@
       "image": "images/characters/thlaar.jpg",
       "specialImage": "",
       "extraImage": "",
-      "page": ""
+      "page": "",
+      "altForm": false
     },
     {
       "characterName": "Yara",
@@ -271,7 +283,8 @@
       "image": "images/characters/yara.jpg",
       "specialImage": "",
       "extraImage": "",
-      "page": ""
+      "page": "",
+      "altForm": false
     }
   ]
 }
