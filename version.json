@@ -1,6 +1,6 @@
 {
   "latestVersion": "0.8.0",
   "forceUpdate": false,
-  "releaseNotes": "Character, NPC, location, bestiary and item info now updates automatically, with new pictures.\nHappy Salazar joins the party.\nBug fixes.",
+  "releaseNotes": "Characters, NPCs, locations, the Bestiary, items and files now update automatically, with pictures, even between app updates.\nNew: Mission Logs in Files, recapping every session so far.\nNew: 7 beasts in the Bestiary.\nNew: a Latest Update button on the main menu.\nHappy Salazar joins EIDOLON Gamma.\nBug fixes.",
   "downloadUrl": "https://drive.google.com/drive/folders/1hqVnCJ7wZB-QnBUefqS5EgKii36pNxMM"
 }
