@@ -1,7 +1,6 @@
 {
-  "latestVersion": "0.5.6",
-  "forceUpdate": true,
-  "releaseNotes": "Bug fixes and improvements."
+  "latestVersion": "0.8.0",
+  "forceUpdate": false,
+  "releaseNotes": "Character, NPC, location, bestiary and item info now updates automatically, with new pictures.\nHappy Salazar joins the party.\nBug fixes.",
+  "downloadUrl": "https://drive.google.com/drive/folders/1hqVnCJ7wZB-QnBUefqS5EgKii36pNxMM"
 }
-
-
