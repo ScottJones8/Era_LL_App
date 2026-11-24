@@ -16,7 +16,7 @@
       "buttonLabel": "",
       "specialText": "",
       "buffText": "",
-      "image": "",
+      "image": "images/characters/hail-warick.jpg",
       "specialImage": "",
       "extraImage": ""
     },
@@ -36,7 +36,7 @@
       "buttonLabel": "",
       "specialText": "",
       "buffText": "",
-      "image": "",
+      "image": "images/characters/thalisteen.jpg",
       "specialImage": "",
       "extraImage": ""
     },
@@ -56,7 +56,7 @@
       "buttonLabel": "",
       "specialText": "",
       "buffText": "",
-      "image": "",
+      "image": "images/characters/fallon-vega.jpg",
       "specialImage": "",
       "extraImage": ""
     },
@@ -77,7 +77,7 @@
       "specialText": "",
       "buffText": "",
       "image": "",
-      "specialImage": "",
+      "specialImage": "images/characters/nova-sparkmore-special.jpg",
       "extraImage": ""
     },
     {
@@ -96,7 +96,7 @@
       "buttonLabel": "Silas",
       "specialText": "",
       "buffText": "",
-      "image": "",
+      "image": "images/characters/silas-duvall.jpg",
       "specialImage": "",
       "extraImage": ""
     },
@@ -116,8 +116,8 @@
       "buttonLabel": "",
       "specialText": "",
       "buffText": "",
-      "image": "",
-      "specialImage": "",
+      "image": "images/characters/aurelia.jpg",
+      "specialImage": "images/characters/aurelia-special.jpg",
       "extraImage": ""
     },
     {
@@ -136,8 +136,8 @@
       "buttonLabel": "",
       "specialText": "",
       "buffText": "",
-      "image": "",
-      "specialImage": "",
+      "image": "images/characters/cassian.jpg",
+      "specialImage": "images/characters/cassian-special.jpg",
       "extraImage": ""
     },
     {
@@ -156,7 +156,7 @@
       "buttonLabel": "",
       "specialText": "",
       "buffText": "",
-      "image": "",
+      "image": "images/characters/jackson-zolock.jpg",
       "specialImage": "",
       "extraImage": ""
     },
@@ -176,8 +176,8 @@
       "buttonLabel": "",
       "specialText": "",
       "buffText": "",
-      "image": "",
-      "specialImage": "",
+      "image": "images/characters/kabesh.jpg",
+      "specialImage": "images/characters/kabesh-special.jpg",
       "extraImage": ""
     },
     {
@@ -196,7 +196,7 @@
       "buttonLabel": "",
       "specialText": "",
       "buffText": "",
-      "image": "",
+      "image": "images/characters/lumi.jpg",
       "specialImage": "",
       "extraImage": ""
     },
@@ -216,8 +216,8 @@
       "buttonLabel": "",
       "specialText": "",
       "buffText": "",
-      "image": "",
-      "specialImage": "",
+      "image": "images/characters/melody.jpg",
+      "specialImage": "images/characters/melody-special.jpg",
       "extraImage": ""
     },
     {
@@ -236,7 +236,7 @@
       "buttonLabel": "",
       "specialText": "",
       "buffText": "",
-      "image": "",
+      "image": "images/characters/thlaar.jpg",
       "specialImage": "",
       "extraImage": ""
     },
@@ -256,7 +256,7 @@
       "buttonLabel": "",
       "specialText": "",
       "buffText": "",
-      "image": "",
+      "image": "images/characters/yara.jpg",
       "specialImage": "",
       "extraImage": ""
     }
