@@ -385,7 +385,7 @@
       "concept": "",
       "description": "A young Sen patient at the Narg containment facility, with short fiery orange hair and a cropped jacket with glowing red accents. Full of restless energy, with sparks flickering faintly round her hands. She was among the patients found dead after the containment breach.",
       "group": "npc",
-      "dead": true,
+      "dead": false,
       "hidden": false,
       "buttonLabel": "",
       "specialText": "",
