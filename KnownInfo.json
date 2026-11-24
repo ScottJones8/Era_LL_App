@@ -1,0 +1,88 @@
+{
+    "entries": [
+        {
+            "id": "Bleeding",
+            "name": "Bleeding",
+            "text": "Corporeal characters with the Bleeding Status takes 1 Health Damage per Turn, Etheareals takes 1 Pain Damage per Turn. Only one Bleeding Status can be active at a time. Bleeding can be removed by a Medicine Check or healing Spell (which will also heal the character) or by the Bandages item.",
+            "hidden": false
+        },
+        {
+            "id": "Blindness and Darkness",
+            "name": "Blindness and Darkness",
+            "text": "When a character is unable to see, they have:\r\n• a –5 dice penalty to Investigation (Active and Passive), and any other Skill Checks that need sight (GM’s Discretion)\r\n• a –5 dice penalty on all Hit Rolls in Combat, along with most non-Combat Rolls (GM’s Discretion)\r\n• an inability to attack any enemy more than 5 metres away\r\nBlindness can be removed by the Eye Drops item if the effect is temporary (e.g. a Spell). Otherwise, it cannot be removed! Darkness can be removed by using a light source.",
+            "hidden": false
+        },
+        {
+            "id": "Catching Fire",
+            "name": "Catching Fire",
+            "text": "If the character gains Catching Fire Status, they may be about to burst into flames! A single dice is rolled whenever a character gains Catching Fire Status. If the result is 6 or more, they gain the Fire Status. Otherwise, they are unaffected.",
+            "hidden": false
+        },
+        {
+            "id": "Drowning and Suffocation",
+            "name": "Drowning and Suffocation",
+            "text": "If a Corporeal character is underwater without an air supply or otherwise denied oxygen, they can survive for a short time without dying. By holding their breath while having this Status, a character can survive for a number of Combat Turns equal to their Stamina (or Stamina x 6 seconds), but can’t perform any strenuous actions (GM’s Discretion). After that time, they take 1 Pain Damage, cumulative each Combat Turn (or 6 seconds):\r\n• 6 seconds after their Stamina runs out, they take 1 Pain Damage\r\n• 12 seconds after their Stamina runs out, they take 2 Pain Damage\r\n• Etc…\r\nThis Status can be removed by the character gaining an air supply, or by the use of the EZ-Breathe item.",
+            "hidden": false
+        },
+        {
+            "id": "Electrocution",
+            "name": "Electrocution",
+            "text": "If a character is affected by electricity (GM’s Discretion), they gain an Electrocution Status for one Combat Turn. A single dice is rolled whenever a character gains Electrocution Status. If the result is 6 or more, they gain the Stunned Status. Otherwise, they are unaffected.",
+            "hidden": false
+        },
+        {
+            "id": "Encumbered",
+            "name": "Encumbered",
+            "text": "When a character tries to carry more items than their Encumbrance Statistic allows, they become Encumbered. When Encumbered, the character’s Dexterity is reduced by 1 Attribute Level (starting from a maximum of their restricted level if they are wearing armour!) for every Encumbrance Point they are over their Encumbrance Statistic, to a minimum of 1 Dexterity. If the items being carried would push them below 1 Dexterity, their Speed is reduced to 1 and they gain the Flat-Footed Status.",
+            "hidden": false
+        },
+        {
+            "id": "Fire or Acid",
+            "name": "Fire or Acid",
+            "text": "When a character is afflicted with either Fire or Acid Status, the effect lasts for 3 Turns. Multiple Fire or Acid Statuses (or a combination of the two) can be on one character at the same time. For each of these Statuses active, the character takes 1 Health Damage per Turn. In addition, a Willpower Check must be rolled for each Status at the start of the afflicted character’s Turn:\r\n• If failed, they must roll on the ground, or panic in another appropriate way.\r\n• If passed, the character may do whatever they wish, including rolling on the ground. \r\nRolling on the ground will remove a single Fire Status per Turn. It will not affect Acid Status. Fire can be removed by rolling on the ground, by using the Extinguisher item or by being extinguished through other means. Acid can be removed by using the Neutralising Chemical item.",
+            "hidden": false
+        },
+        {
+            "id": "Flat-Footed",
+            "name": "Flat-Footed",
+            "text": "When a character is Flat-Footed, they have 0 Defence. This Status is usually temporary, and may be due to a fall, ambush, etc.",
+            "hidden": false
+        },
+        {
+            "id": "Frozen or Restrained",
+            "name": "Frozen or Restrained",
+            "text": "When a character is encased in a block of ice (usually by Magic), they gain the Frozen Status. When they are tied up or otherwise held still by external forces, they are Restrained. When a character is Restrained, they are unable to move or act, except to speak and natural healing is paused. When a character is Frozen, they are unable to move, act or speak, natural healing is paused and they are immune to Damage. These Statuses are applied with a number (e.g. Restrained (10) or Frozen (5)), which signifies the Successes needed from a One-Shot Strength Attribute Check to break free. Either Status can be removed if this is achieved. Frozen Status can be removed by the Bottled Fire item, or by destroying the ice (Pain + Health Damage equal to the number). Restrained Status can be removed by someone with a bladed weapon or item cutting the character free.",
+            "hidden": false
+        },
+        {
+            "id": "Horror",
+            "name": "Horror",
+            "text": "If a character is afflicted with the Horror Status, they are unable to act, paralysed by sheer terror. They must take a Willpower Check at the beginning of every Combat Turn if in Combat, or every 30 seconds if out of Combat. As soon as the Willpower Check has been passed the Status is removed. Horror Status can also be removed by an ally using the Will Booster item on the afflicted character.",
+            "hidden": false
+        },
+        {
+            "id": "Poisoned",
+            "name": "Poisoned",
+            "text": "When a character has Poisoned Status, they take Health Damage each Combat Turn (or 6 seconds) until it is removed:\r\n• In the first Combat Turn, they take 1 Health Damage\r\n• In the second Combat Turn, they take 2 Health Damage\r\n• In the third Combat Turn, they take 3 Health Damage\r\n• Etc.\r\nA character may have multiple Poisoned Statuses at a time. Each additional Poisoned Status added increases the effect, as if an additional Turn had passed since they were Poisoned. Poisoned Status can be removed by a Medicine Skill Check if the character has appropriate medical supplies (GM’s Discretion), or with the Antidote item.",
+            "hidden": false
+        },
+        {
+            "id": "Stunned",
+            "name": "Stunned",
+            "text": "If a character is afflicted with the Stunned Status, they are unable to act on their next Combat Turn if in Combat, or unable to act for 30 seconds if out of Combat. As soon as this period has lapsed, this Status is removed. It can be removed early by the Stimulant item.",
+            "hidden": false
+        },
+        {
+            "id": "Tranquilised",
+            "name": "Tranquilised",
+            "text": "Tranquilised Status is usually inflicted by injected drugs or gases. If a character wishes to resist this Status for a short time, they can try by making a Willpower Check:\r\n• If they succeed, they will resist the Tranquilised Status for this Turn.\r\n• If they fail, they will succumb and fall asleep, filling their Pain bar with Damage, experiencing an enforced period\r\nof Unconscious Status (with time before they can be healed to consciousness at the GM’s Discretion). If they resist successfully, they must succeed at a Willpower Check with a –1 cumulative dice penalty to their Willpower per Turn (–2 penalty in the third Turn, –3 penalty in the fourth Turn, etc) to continue doing so. A Tranquilised Status will last for a minimum of 30 minutes unless counteracted by other drugs. Tranquilised Status can be removed by a Medicine Skill Check, though appropriate medical supplies will be needed (GM’s Discretion). It can also be removed by the Smelling Salts item. When Tranquilised Status wears off over time (GM’s Discretion – likely to be a few hours!), the character will return to consciousness with Pain Damage equal to half of their maximum Pain. When Tranquilised Status is removed by Smelling Salts or a Medicine Skill Check, the character will return to consciousness with all Pain Damage that was inflicted by the Status being removed.",
+            "hidden": false
+        },
+        {
+            "id": "Unconscious",
+            "name": "Unconscious",
+            "text": "When all of the character’s accessible Pain boxes are filled with Pain Damage, they gain the Unconscious Status. When Unconscious, characters are unable to move, act or speak. They are also vulnerable to Coup de Grace and anything else which other characters may wish to inflict upon them. If a Corporeal’s Pain Damage was filled by being attacked, they may gain Bleeding Status and begin to die (GM’s Discretion). Unconscious Ethereals, however, will regenerate Pain Damage at their normal rate. Unconscious Status can only be removed by receiving healing which removes Pain Damage, which can be done with a Healing Spell, Medicine Skill Check, or one of several Items, including Potion, Hi-Potion and Phoenix Ashes",
+            "hidden": false
+        }
+    ]
+}

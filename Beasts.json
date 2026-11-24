@@ -1,0 +1,74 @@
+{
+    "beasts": [
+        {
+            "id": "Giganticlaw",
+            "name": "Giganticlaw",
+            "type": "Crawler",
+            "prevalence": "Common",
+            "threatLevel": "Minimal",
+            "description": "Small, weak Monsters that are most often found\r\nroaming across open and rocky areas, Giganticlaws\r\nare primarily notable because of their tendency to\r\neat anything that isn’t dirt or rocks.\r\nThey are known to cause problems for convoys and\r\ntransports which stop for the night in areas where\r\nthey are prevalent – they will frequently latch onto\r\nthe vehicles, eating their tires, canvas sides and\r\nother soft parts. Any cargo that’s contained within\r\ncontainers that they can pry open with their claws is\r\nalso at risk.\r\nGiganticlaws are considered a pest, but a\r\nreasonably useful source of Crystals for Stardust,\r\nInc. power plants. As they often travel in small\r\ngroups, attracted to anything that vibrates or makes\r\na noise, it is possible to gather them with a little\r\neffort.\r\nMeasuring about 0.4 metres long, their claw is the\r\nonly threat they offer to anyone they might attack, as\r\nthey don’t seem to have access to any Magic.\r\nThey are relatively weak, and even beginner fighters\r\nare able to dispatch a Giganticlaw with little difficulty",
+            "elements": "",
+            "specialities": "",
+            "ultimate": "",
+            "spells": "",
+            "image": "",
+            "hidden": false
+        },
+        {
+            "id": "Giganticlaw Lightning",
+            "name": "Giganticlaw - Lightning",
+            "type": "Crawler",
+            "prevalence": "Common",
+            "threatLevel": "Minimal",
+            "description": "Small, weak Monsters that are most often found\r\nroaming across open and rocky areas, Giganticlaws\r\nare primarily notable because of their tendency to\r\neat anything that isn’t dirt or rocks.\r\nThey are known to cause problems for convoys and\r\ntransports which stop for the night in areas where\r\nthey are prevalent – they will frequently latch onto\r\nthe vehicles, eating their tires, canvas sides and\r\nother soft parts. Any cargo that’s contained within\r\ncontainers that they can pry open with their claws is\r\nalso at risk.\r\nGiganticlaws are considered a pest, but a\r\nreasonably useful source of Crystals for Stardust,\r\nInc. power plants. As they often travel in small\r\ngroups, attracted to anything that vibrates or makes\r\na noise, it is possible to gather them with a little\r\neffort.\r\nMeasuring about 0.4 metres long, their claw is the\r\nonly threat they offer to anyone they might attack, as\r\nthey don’t seem to have access to any Magic.\r\nThey are relatively weak, and even beginner fighters\r\nare able to dispatch a Giganticlaw with little difficulty",
+            "elements": "Lightning is absorbed",
+            "specialities": "",
+            "ultimate": "",
+            "spells": "",
+            "image": "",
+            "hidden": false
+        },
+        {
+            "id": "Selians",
+            "name": "Selians",
+            "type": "Amphibious/Humanoid",
+            "prevalence": "Common",
+            "threatLevel": "Moderate",
+            "description": "Selians are person-sized, semi-intelligent creatures which live in the sewers below major cities as well as in swampy areas. They are ferocious combatants, and often attack in numbers, using Spells which put their prey to sleep, making them easier targets. They also possess glands capable of producing large amounts of acid at a moment’s notice, making even a brief encounter with this type of Monster potentially fatal to an unprepared adventurer. Although they seldom move stealthily, they often conceal themselves under water, leaping out with great speed and accuracy the moment anyone strays too close. Althougn Stardust, Inc. has made an effort to eliminate them from the sewers below Stardust City, it has been unable to do so entirely. Instead, personnel often reinforce doors and barricade entrances to the sewers, both to keep Selians in and the population of the city out! Measuring around 1.5 metres in height, Selians don’t often stray too far from water, despite being able to breathe air, because they need to keep their skin moist in order to survive.",
+            "elements": "Lightning deals [2 x Damage]",
+            "specialities": "",
+            "ultimate": "",
+            "spells": "Acid Spray\nHypnosis",
+            "image": "",
+            "hidden": false
+        },
+        {
+            "id": "Zoloid",
+            "name": "Zoloid",
+            "type": "Amphibious",
+            "prevalence": "Common",
+            "threatLevel": "Minimal",
+            "description": "Small and weak Monsters that are commonly found\r\nacross the world, Zoloids can compress their bodies,\r\nallowing them squeeze through almost any gap\r\nlarge enough to fit their bone spikes. In the cities,\r\nthey are considered vermin – unfortunately, they can\r\nget almost anywhere, by passing through the water\r\npipes and ducts that connect buildings.\r\nZoloids will eat almost anything, although they seem\r\nto prefer dead creatures and what others throw\r\naway to anything that the population consider edible\r\nfood.\r\nZoloids were quickly deemed uninteresting by\r\nStardust, Inc. and a general attitude of killing them\r\nwhen encountered was mandated to take their\r\nCrystals and use them for Stardust, Inc.’s power\r\nplants.\r\nMeasuring only about 0.3 metres high, their\r\ntentacles are capable of giving unprepared attackers\r\na weak slap, and they command basic Ice Magic,\r\nwhich they use to defend themselves.\r\nIt’s occasionally known for Mutation Magic wielding\r\nEthereals and Spell Sphere manufacturers to seek\r\nout Zoloids and provoke them into attacking to gain\r\nthe power of the Icicles Spell. Spell Spheres from\r\nZoloids are relatively common and cheap, as Zoloids\r\nare one of the weakest possible users of this Spell.",
+            "elements": "Lightning deals [2 x Damage]",
+            "specialities": "",
+            "ultimate": "",
+            "spells": "Icicles",
+            "image": "",
+            "hidden": false
+        },
+        {
+            "id": "Zoloid Lightning",
+            "name": "Zoloid Lightning",
+            "type": "Amphibious",
+            "prevalence": "Common",
+            "threatLevel": "Minimal",
+            "description": "Small and weak Monsters that are commonly found\r\nacross the world, Zoloids can compress their bodies,\r\nallowing them squeeze through almost any gap\r\nlarge enough to fit their bone spikes. In the cities,\r\nthey are considered vermin – unfortunately, they can\r\nget almost anywhere, by passing through the water\r\npipes and ducts that connect buildings.\r\nZoloids will eat almost anything, although they seem\r\nto prefer dead creatures and what others throw\r\naway to anything that the population consider edible\r\nfood.\r\nZoloids were quickly deemed uninteresting by\r\nStardust, Inc. and a general attitude of killing them\r\nwhen encountered was mandated to take their\r\nCrystals and use them for Stardust, Inc.’s power\r\nplants.\r\nMeasuring only about 0.3 metres high, their\r\ntentacles are capable of giving unprepared attackers\r\na weak slap, and they command basic Ice Magic,\r\nwhich they use to defend themselves.\r\nIt’s occasionally known for Mutation Magic wielding\r\nEthereals and Spell Sphere manufacturers to seek\r\nout Zoloids and provoke them into attacking to gain\r\nthe power of the Icicles Spell. Spell Spheres from\r\nZoloids are relatively common and cheap, as Zoloids\r\nare one of the weakest possible users of this Spell.",
+            "elements": "Lightning is absorbed",
+            "specialities": "",
+            "ultimate": "",
+            "spells": "Icicles",
+            "image": "",
+            "hidden": false
+        }
+    ]
+}
