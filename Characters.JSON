@@ -61,26 +61,6 @@
       "extraImage": ""
     },
     {
-      "characterName": "Nova Sparkmore",
-      "age": "30",
-      "height": "1.70",
-      "weight": "65kg",
-      "hobby": "Flowers",
-      "quirk": "Quick to anger",
-      "birthplace": "Starfall",
-      "concept": "Gangster",
-      "description": "Nova Sparkmore is a lad from City.",
-      "group": "player",
-      "dead": false,
-      "hidden": false,
-      "buttonLabel": "",
-      "specialText": "",
-      "buffText": "",
-      "image": "",
-      "specialImage": "images/characters/nova-sparkmore-special.jpg",
-      "extraImage": ""
-    },
-    {
       "characterName": "Silas Duvall",
       "age": "40",
       "height": "1.88",
