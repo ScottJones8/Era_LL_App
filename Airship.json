@@ -30,6 +30,9 @@
     { "id": "test-module-c", "name": "Test Module C", "type": "Ethereal", "effect": "Placeholder effect. Hidden from players.", "status": "offline", "crew": "", "order": "", "hidden": true }
   ],
 
+  "deckImage": "",
+  "bays": [],
+
   "upgradeSlots": 3,
   "etherealUpgrades": [
     { "name": "Test Upgrade A", "source": "Test boss", "effect": "Placeholder effect.", "risk": "Placeholder risk.", "active": true, "hidden": false },
