@@ -65,6 +65,83 @@
       "description": "<b>Background:</b>\nStardust City (or just “the City”, to locals) is a gleaming beacon of progress. It was originally the crown city of the Stardust Empire, and became the hometown of Stardust, Inc. when it was founded. A sprawling metropolis running entirely on Crystal power, Stardust City has been the seat of power of Stardust, Inc. since its founding, and it makes sure no one forgets it. From food to sanitation, communications and construction, everything is owned and run by Stardust, Inc.. THORN also has a significant presence here, as the best place to fight is in the core of the enemy’s territory.\n<b>Landscape:</b>\nThe first things anyone thinks of when Stardust CIty is mentioned are the gleaming skyscrapers and organised streets. The centre of the city is laid out in a neat grid, making it very easy to navigate. The city also boasts the most recognisable skyline in the world, with the cluster of towering skyscrapers at its heart dwarfed by the ring of Crystal power generators spaced around the city’s original boundary. As time passed, the city grew, but the construction standards were not maintained beyond the ring of power generators. The result is that, rather than being akin to suburbs, the outer areas resemble slums. These areas house people with just enough worth to Stardust that they are allowed to remain, commuting to work inside the city proper. The night in Stardust City glows a cyan colour with the light pollution from the huge number of Crystals housed within the great power plants, making the city seem to glow as if it is made of stardust.\n<b>Population:</b>\nStardust, Inc. does not allow professional discrimination, so all races can be found alongside each other in its home city. There is, however, a slight imbalance toward the faster-reproducing Sen, which is almost inevitable over a period of time. As the corporation owns the city, all available jobs relate to it in some way, whether it’s working as accountants, engineers or researchers for Stardust, Inc. directly, or providing services to employees, such as shopkeepers and couriers.\n<b>Laws:</b>\nThe laws of Stardust City have been revised from what was in place when Stardust was an empire, with most being lifted directly out of the corporation’s handbook rather than designed for the people. In addition to “common sense” laws like those relating to violence and theft, there are surprisingly large penalties relating to day-to-day conduct and presentation. Vandalism, public disorder and similar infractions are viewed as serious crimes by Stardust, Inc., as it is very focused on its image. It therefore punishes them more severely than most places in the world. The laws are enforced by the Stardust robots which roam the streets. Although they are officially overseen by Warrior-Monks, these figureheads have no real say in how justice is dispensed. Instead, the Peacekeeping Division of Stardust, Inc. makes all of the decisions. Dissenters say that the number of robots used to police the city is excessive – tens of villages could be protected if the robot presence at the centre were reduced. Stardust, Inc.  laims that, for as long as groups like THORN subvert the law, the level of protection provided by the robots is needed to keep the population safe.",
       "infoActive": true,
       "image": "images/locations/stardust-city.jpg"
+    },
+    {
+      "locationName": "Stardust City - Aether Heights",
+      "region": "Stardust City, Upper District (Sky Layer)",
+      "races": "Mixed: Human, Sen and Goith",
+      "population": "Part of Stardust City",
+      "commerce": "Luxury living, sport, travel hubs",
+      "rulingBody": "Stardust, Inc. Board of Directors",
+      "description": "<b>Vibe:</b> Clean, elite and surreal, literally above the rest of the city.\n<b>Layout:</b> Skybridges, floating platforms and anti-grav lanes.\n\n<b>Things to do:</b>\n• <b>Grav-Racing Rings:</b> anti-gravity racing tunnels that loop around the skyscrapers.\n• <b>Skybridge Sprint Leagues:</b> competitive rooftop running, boosted by wind currents.\n• <b>Constellation Mapping Tours:</b> guided rooftop sessions lining up the city lights with real star charts.\n• <b>Silent Observation Decks:</b> high towers where speech is restricted, to encourage reflection.\n\n<b>Good to know:</b> Home to wealthy residents, fast travel hubs and the best views in the city. Getting in may take the right status or permits.",
+      "infoActive": true,
+      "image": "images/locations/stardust-city.jpg"
+    },
+    {
+      "locationName": "Stardust City - Iron Pulse Ward",
+      "region": "Stardust City, Combat & Competitive Sector",
+      "races": "Mixed: Human, Sen and Goith",
+      "population": "Part of Stardust City",
+      "commerce": "Industry, arenas, training",
+      "rulingBody": "Stardust, Inc. Board of Directors",
+      "description": "<b>Vibe:</b> Loud, industrial and full of adrenaline.\n<b>Layout:</b> Wide arenas, steel works and some underground zones. It borders the slums.\n\n<b>Things to do:</b>\n• <b>Shardblade Arenas:</b> non-lethal duelling with energy-forged training weapons.\n• <b>Echo Sparring Dojos:</b> fight simulations against recorded versions of yourself.\n• <b>Pulse Parkour Runs:</b> city-wide obstacle routes whose layout shifts every few hours.\n• Entrances to the Skybridge race overflow.\n\n<b>Good to know:</b> Where fighters, mercenaries and thrill-seekers gather. Reputation matters here.",
+      "infoActive": true,
+      "image": "images/locations/stardust-city.jpg"
+    },
+    {
+      "locationName": "Stardust City - Lumen Coast",
+      "region": "Stardust City, Outer District (Waterfront)",
+      "races": "Mixed: Human, Sen and Goith",
+      "population": "Part of Stardust City",
+      "commerce": "Leisure, crafts",
+      "rulingBody": "Stardust, Inc. Board of Directors",
+      "description": "<b>Vibe:</b> Relaxed but surreal, at the edge of the city.\n<b>Layout:</b> Low to medium height, with lots of open space.\n\n<b>Things to do:</b>\n• <b>Starlight Bathhouses:</b> pools of luminescent dust that react to your mood and soothe fatigue.\n• <b>Memory Fishing Ponds:</b> catch visual fragments of the city's forgotten history.\n• <b>Sound Sculpting Studios:</b> build \"physical\" objects out of layered sound.\n• <b>Lightweaving Workshops:</b> craft clothing or art from solidified strands of light.\n\n<b>Good to know:</b> Peaceful and grounded. Good for downtime, crafting and a breather.",
+      "infoActive": true,
+      "image": "images/locations/stardust-city.jpg"
+    },
+    {
+      "locationName": "Stardust City - Lumina Core",
+      "region": "Stardust City, Sector 1 (City Center)",
+      "races": "Mixed: Human, Sen and Goith",
+      "population": "Part of Stardust City",
+      "commerce": "Entertainment, dining, culture",
+      "rulingBody": "Stardust, Inc. Board of Directors",
+      "description": "<b>Vibe:</b> Bright, dense and always active. The cultural and economic heart of the city.\n<b>Layout:</b> Extremely vertical, from street level right up to sky platforms. Home to Stardust, Inc.'s Training Facility.\n\n<b>Things to do:</b>\n• <b>Luminal Theatres:</b> holographic stage shows whose endings change with the audience's emotions.\n• <b>Echo Halls:</b> sound-memory recordings that let you relive historic or personal moments as immersive shows.\n• <b>Memory Portrait Studios:</b> artists \"paint\" your emotional state into animated stills.\n• <b>Skyline Cafés:</b> cafés on anchored platforms floating above the city's glow.\n• <b>Stardust Arcade District:</b> skill games built on light, reflex timing and minor illusion tech.\n• Restaurants of every kind.\n\n<b>Good to know:</b> The best place for performances and meeting high-end people. Surveillance is heavy at street level, less so the higher you go.",
+      "infoActive": true,
+      "image": "images/locations/stardust-city.jpg"
+    },
+    {
+      "locationName": "Stardust City - Neon Drift Market",
+      "region": "Stardust City, Commercial & Nightlife District",
+      "races": "Mixed: Human, Sen and Goith",
+      "population": "Part of Stardust City",
+      "commerce": "Markets, street food, nightlife, gambling",
+      "rulingBody": "Stardust, Inc. Board of Directors",
+      "description": "<b>Vibe:</b> Chaotic, colourful and always shifting.\n<b>Layout:</b> Layered streets and floating market routes.\n\n<b>Things to do:</b>\n• <b>Floating Night Markets:</b> drifting merchant platforms that rearrange themselves every night.\n• <b>Stardrop Dice Houses:</b> dice made from compressed stardust fragments, with unpredictable behaviour.\n• <b>Flux Tables:</b> gambling games where the rules change mid-round.\n• <b>Persona Mask Crafting:</b> make emotional projection masks for festivals or a change of identity.\n• <b>Holo-Graffiti Zones:</b> legal spaces for painting interactive projections on buildings.\n• Street food.\n\n<b>Good to know:</b> The place for rare items and shady deals. The layout changes nightly, so don't expect to find the same stall twice.",
+      "infoActive": true,
+      "image": "images/locations/stardust-city.jpg"
+    },
+    {
+      "locationName": "Stardust City - Umbra Veil",
+      "region": "Stardust City, Underground",
+      "races": "Mixed: Human, Sen and Goith",
+      "population": "Part of Stardust City",
+      "commerce": "Illicit trade, high-stakes gambling",
+      "rulingBody": "Stardust, Inc. Board of Directors",
+      "description": "<b>Vibe:</b> Dark, hidden and psychologically intense.\n<b>Layout:</b> Deep underground, behind sealed structures. Its entrances are hidden inside other districts.\n\n<b>Things to do:</b>\n• <b>Memory Stakes Parlours:</b> bet temporary memories instead of money. Very regulated… officially.\n• <b>Dreamsync Lounges:</b> shared lucid dreams, with strict time limits (mostly).\n• <b>Blacklight Card Circles:</b> underground high-stakes strategy games with illusion-shuffled decks.\n• Illegal versions of the Flux Tables.\n\n<b>Good to know:</b> High risk, high reward. Memory loss, identity tampering and illegal mods happen down here.",
+      "infoActive": false,
+      "image": "images/locations/stardust-city.jpg"
+    },
+    {
+      "locationName": "Stardust City - Verdant Flux Gardens",
+      "region": "Stardust City, Sector 2 (Recreation Zone)",
+      "races": "Mixed: Human, Sen and Goith",
+      "population": "Part of Stardust City",
+      "commerce": "Recreation, parks",
+      "rulingBody": "Stardust, Inc. Board of Directors",
+      "description": "<b>Vibe:</b> Calm, with nature and technology growing together.\n<b>Layout:</b> Medium height, with patches of strange gravity.\n\n<b>Things to do:</b>\n• <b>Gravity Gardens:</b> parks where gravity changes by zone, so you can walk on walls or float lightly.\n• <b>Drift Journaling Gardens:</b> write your thoughts into floating paper orbs that drift away on the air currents.\n• <b>Chrono-Bench Parks:</b> benches that show the same spot at different points in time.\n• <b>Starfall Meditation Chambers:</b> rooms that feel like falling through space without moving at all.\n\n<b>Good to know:</b> One of the quietest parts of the city, good for slowing down.",
+      "infoActive": true,
+      "image": "images/locations/stardust-city.jpg"
     }
   ]
 }
