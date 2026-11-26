@@ -1,0 +1,112 @@
+{
+  "visible": false,
+
+  "name": "Test Ship",
+  "shipClass": "Test class",
+  "affiliation": "Independent",
+  "reputationTier": 1,
+  "reputationMax": 5,
+  "image": "",
+  "visualNotes": "Placeholder text for testing. Real details go in when the ship is revealed.",
+
+  "stats": [
+    { "name": "Hull", "value": 7, "max": 10, "text": "", "hidden": false },
+    { "name": "Engine", "value": 0, "max": 0, "text": "Medium", "hidden": false },
+    { "name": "Aether Core", "value": 4, "max": 6, "text": "", "hidden": false },
+    { "name": "Shields", "value": 0, "max": 0, "text": "Light", "hidden": false },
+    { "name": "Crew", "value": 3, "max": 6, "text": "", "hidden": false },
+    { "name": "Cargo", "value": 2, "max": 8, "text": "", "hidden": false },
+    { "name": "Stealth", "value": 0, "max": 0, "text": "Low", "hidden": true }
+  ],
+
+  "moduleSlots": 5,
+  "modules": [
+    { "id": "bridge", "name": "Bridge", "type": "Core", "effect": "Navigation and mission selection.", "status": "active", "crew": "Test Crew A", "order": "", "hidden": false },
+    { "id": "engine-room", "name": "Engine Room", "type": "Core", "effect": "Travel speed and engine upgrades.", "status": "active", "crew": "", "order": "", "hidden": false },
+    { "id": "crew-quarters", "name": "Crew Quarters", "type": "Core", "effect": "Space for NPC crew.", "status": "active", "crew": "", "order": "", "hidden": false },
+    { "id": "cargo-hold", "name": "Cargo Hold", "type": "Core", "effect": "Loot and trade goods.", "status": "active", "crew": "", "order": "", "hidden": false },
+    { "id": "test-module-a", "name": "Test Module A", "type": "Utility", "effect": "Placeholder effect.", "status": "active", "crew": "Test Crew B", "order": "Craft", "hidden": false },
+    { "id": "test-module-b", "name": "Test Module B", "type": "Combat", "effect": "Placeholder effect.", "status": "damaged", "crew": "", "order": "Repair", "hidden": false },
+    { "id": "test-module-c", "name": "Test Module C", "type": "Ethereal", "effect": "Placeholder effect. Hidden from players.", "status": "offline", "crew": "", "order": "", "hidden": true }
+  ],
+
+  "upgradeSlots": 3,
+  "etherealUpgrades": [
+    { "name": "Test Upgrade A", "source": "Test boss", "effect": "Placeholder effect.", "risk": "Placeholder risk.", "active": true, "hidden": false },
+    { "name": "Test Upgrade B", "source": "Test boss", "effect": "Placeholder effect. Hidden from players.", "risk": "Placeholder risk.", "active": false, "hidden": true }
+  ],
+
+  "crewCapacity": 6,
+  "keyRoles": [],
+  "crew": [
+    { "name": "Test Crew A", "role": "Pilot", "bonus": "Placeholder travel bonus.", "loyalty": "High", "hidden": false },
+    { "name": "Test Crew B", "role": "Engineer", "bonus": "Placeholder repair bonus.", "loyalty": "Med", "hidden": false },
+    { "name": "Test Crew C", "role": "Gunner", "bonus": "Placeholder. Hidden from players.", "loyalty": "Low", "hidden": true }
+  ],
+
+  "conditions": [
+    { "name": "Damaged Hull", "on": true, "hidden": false },
+    { "name": "Engine Strain", "on": false, "hidden": false },
+    { "name": "Aether Instability", "on": false, "hidden": false },
+    { "name": "Crew Conflict", "on": false, "hidden": false },
+    { "name": "System Malfunction", "on": false, "hidden": false }
+  ],
+  "activeEffects": [
+    { "text": "Placeholder active effect.", "hidden": false }
+  ],
+
+  "weapons": [ { "text": "Basic Cannons", "hidden": false } ],
+  "defensiveSystems": [ { "text": "Light Shield", "hidden": false } ],
+  "specialSystems": [ { "text": "Placeholder special system. Hidden from players.", "hidden": true } ],
+
+  "knownLocations": [
+    { "name": "Stardust City", "on": true, "hidden": false },
+    { "name": "Test Location", "on": false, "hidden": false }
+  ],
+  "lockedRegions": [
+    { "name": "Test Region", "requirement": "Requires Engine Upgrade", "hidden": false }
+  ],
+
+  "turnActions": [
+    { "name": "Repair Hull", "on": true, "hidden": false },
+    { "name": "Generate Resources", "on": false, "hidden": false },
+    { "name": "Craft / Upgrade", "on": false, "hidden": false },
+    { "name": "Assign Crew Tasks", "on": true, "hidden": false },
+    { "name": "Trigger Event", "on": false, "hidden": false }
+  ],
+  "turnNotes": "Placeholder downtime results.",
+
+  "notes": [
+    { "text": "Placeholder note.", "hidden": false },
+    { "text": "Placeholder story hook. Hidden from players.", "hidden": true }
+  ],
+
+  "upgradeTree": [
+    { "tier": 1, "name": "Base Systems", "unlock": "Start", "locked": false, "hidden": false, "nodes": [
+      { "name": "Engine Mk I", "path": "", "effect": "Placeholder effect.", "status": "installed", "hidden": false },
+      { "name": "Basic Cannons", "path": "", "effect": "Placeholder effect.", "status": "installed", "hidden": false },
+      { "name": "Light Shield", "path": "", "effect": "Placeholder effect.", "status": "available", "hidden": false }
+    ] },
+    { "tier": 2, "name": "Specialisation", "unlock": "After the first boss", "locked": true, "hidden": false, "nodes": [
+      { "name": "Test Node A", "path": "Combat", "effect": "Placeholder effect.", "status": "locked", "hidden": false },
+      { "name": "Test Node B", "path": "Utility", "effect": "Placeholder effect.", "status": "locked", "hidden": false },
+      { "name": "Test Node C", "path": "Ethereal", "effect": "Placeholder effect.", "status": "locked", "hidden": false }
+    ] },
+    { "tier": 3, "name": "Hybrid Builds", "unlock": "Placeholder unlock", "locked": true, "hidden": false, "nodes": [
+      { "name": "Test Node D", "path": "", "effect": "Placeholder effect.", "status": "locked", "hidden": false }
+    ] },
+    { "tier": 4, "name": "Apex Systems", "unlock": "Placeholder unlock", "locked": true, "hidden": true, "nodes": [
+      { "name": "Test Node E", "path": "", "effect": "Placeholder effect.", "status": "locked", "hidden": false }
+    ] },
+    { "tier": 5, "name": "Forbidden Upgrades", "unlock": "Placeholder unlock", "locked": true, "hidden": true, "nodes": [
+      { "name": "Test Node F", "path": "", "effect": "Placeholder effect.", "status": "locked", "hidden": false }
+    ] }
+  ],
+
+  "log": [
+    { "title": "Test entry 2", "text": "Placeholder log text. Newest entries go first.", "hidden": false },
+    { "title": "Test entry 1", "text": "Placeholder log text. Hidden from players.", "hidden": true }
+  ],
+
+  "hiddenSections": []
+}
