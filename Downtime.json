@@ -1,7 +1,7 @@
 {
   "visible": true,
 
-  "tableTimes": [],
+  "tableTimes": [ { "day": "Tuesday", "start": "19:30", "end": "22:00" } ],
   "tableOpen": "",
   "homeStakePerWeek": 1,
 
