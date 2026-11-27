@@ -1,5 +1,5 @@
 {
-  "visible": true,
+  "visible": false,
 
   "tableTimes": [ { "day": "Tuesday", "start": "19:30", "end": "22:00" } ],
   "tableOpen": "",
