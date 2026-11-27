@@ -81,6 +81,49 @@
         { "result": "win", "min": 0, "max": 0, "multiplier": 1, "reward": "" },
         { "result": "perfect", "min": 0, "max": 0, "multiplier": 2, "reward": "Good" }
       ]
+    },
+    {
+      "id": "fallingstar",
+      "casino": "stardrop",
+      "name": "Falling Star",
+      "description": "Pick a number from 1 to 6, then three Stardrop Dice fall. The more times your number comes up, the more you win. Miss with three different numbers and the dealer rolls the glowing Stardust Die: on a 6 you get half your stake back.",
+      "hidden": false,
+      "minStake": 1,
+      "maxStake": 5,
+      "payouts": [
+        { "result": "once", "min": 0, "max": 0, "multiplier": 1, "reward": "" },
+        { "result": "twice", "min": 0, "max": 0, "multiplier": 3, "reward": "" },
+        { "result": "thrice", "min": 0, "max": 0, "multiplier": 10, "reward": "" }
+      ]
+    },
+    {
+      "id": "crystalseven",
+      "casino": "stardrop",
+      "name": "Crystal Seven",
+      "description": "You and the dealer each roll two Stardrop Dice, and the total closest to 7 wins. But doubles are Resonant: roll them again and add them on. A Resonant total beats any normal one, so the hand that looked lost can suddenly win.",
+      "hidden": false,
+      "minStake": 1,
+      "maxStake": 5,
+      "payouts": [
+        { "result": "win", "min": 0, "max": 0, "multiplier": 1, "reward": "" },
+        { "result": "resonant", "min": 0, "max": 0, "multiplier": 2, "reward": "" }
+      ]
+    },
+    {
+      "id": "fluxpyramid",
+      "casino": "flux",
+      "name": "Flux Pyramid",
+      "description": "A pyramid of ten face-down crystals, and one of them is the Core. Turn them over one at a time and cash out whenever you like. The more safe crystals, the bigger the payout. Turn over the Core and you lose. After every safe crystal the Flux Crystal rolls, and on a 5 or 6 the pyramid shifts.",
+      "hidden": false,
+      "minStake": 1,
+      "maxStake": 5,
+      "fluxFrom": 5,
+      "payouts": [
+        { "result": "safe5", "min": 0, "max": 0, "multiplier": 1, "reward": "" },
+        { "result": "safe7", "min": 0, "max": 0, "multiplier": 2, "reward": "" },
+        { "result": "safe8", "min": 0, "max": 0, "multiplier": 3, "reward": "" },
+        { "result": "clear", "min": 0, "max": 0, "multiplier": 8, "reward": "Good" }
+      ]
     }
   ],
 
@@ -90,6 +133,9 @@
     { "id": "overcharge", "name": "Overcharge", "text": "The maximum score is now 30.", "off": false },
     { "id": "frozen", "name": "Frozen Time", "text": "Nobody may draw this round.", "off": false },
     { "id": "resonance", "name": "Crystal Resonance", "text": "Pairs count double: 7 + 7 = 28.", "off": false },
-    { "id": "void", "name": "Void Collapse", "text": "Everyone discards one random card.", "off": false }
+    { "id": "void", "name": "Void Collapse", "text": "Everyone discards one random card.", "off": false },
+    { "id": "coreshift", "name": "Core Shift", "text": "The Core slips to another hidden crystal.", "off": false },
+    { "id": "twincore", "name": "Twin Core", "text": "A second Core forms somewhere in the pyramid.", "off": false },
+    { "id": "collapse", "name": "Collapse", "text": "A hidden crystal crumbles away. It was safe, so it counts for you.", "off": false }
   ]
 }
