@@ -1,13 +1,13 @@
 {
   "visible": false,
 
-  "name": "Unnamed ship",
+  "name": "SDV Benevolence",
   "shipClass": "Stardust cargo transport",
   "affiliation": "Independent (formerly Stardust, Inc.)",
   "reputationTier": 1,
   "reputationMax": 5,
   "image": "",
-  "visualNotes": "A heavy Stardust cargo transport, built to haul rather than fight. It still wears Stardust grey and still broadcasts its old registry. The cargo hold is fitted out as a containment hold.",
+  "visualNotes": "A heavy Stardust cargo transport, built to haul rather than fight. It still wears Stardust grey and still broadcasts its old registry, RT-07. The cargo hold is fitted with six pod cradles.",
 
   "stats": [
     { "name": "Hull", "value": 10, "max": 10, "text": "", "hidden": false },
@@ -24,7 +24,7 @@
     { "id": "bridge", "name": "Bridge", "type": "Core", "effect": "Flying, navigation and mission planning.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false },
     { "id": "engine-room", "name": "Engine Room", "type": "Core", "effect": "Powers the rotors. The Engine tier sets speed and how hard the ship is to catch.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false },
     { "id": "crew-quarters", "name": "Crew Quarters", "type": "Core", "effect": "Room for up to 4 crew.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false },
-    { "id": "cargo-hold", "name": "Cargo Hold", "type": "Core", "effect": "6 units of cargo. Still fitted out as a Stardust containment hold.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false }
+    { "id": "cargo-hold", "name": "Cargo Hold", "type": "Core", "effect": "6 units of cargo. Still fitted with six Stardust pod cradles.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false }
   ],
 
   "deckImage": "",
@@ -45,7 +45,7 @@
     { "name": "System Malfunction", "on": false, "hidden": false }
   ],
   "activeEffects": [
-    { "text": "Still broadcasting its Stardust registry.", "hidden": false }
+    { "text": "Still broadcasting its Stardust registry: RT-07 \"Benevolence\".", "hidden": false }
   ],
 
   "weapons": [ { "text": "None fitted", "hidden": false } ],
@@ -79,7 +79,7 @@
   "turnNotes": "",
 
   "notes": [
-    { "text": "The ship needs a name.", "hidden": false },
+    { "text": "Benevolence is Stardust's name for it. Rename it whenever you like.", "hidden": false },
     { "text": "Choose a Captain.", "hidden": false }
   ],
 
