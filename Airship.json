@@ -10,21 +10,21 @@
   "visualNotes": "A heavy Stardust cargo transport, built to haul rather than fight. It still wears Stardust grey and still broadcasts its old registry, RT-07. The cargo hold is fitted with six pod cradles.",
 
   "stats": [
-    { "name": "Hull", "value": 10, "max": 10, "text": "", "hidden": false },
-    { "name": "Engine", "value": 0, "max": 0, "text": "Medium", "hidden": false },
-    { "name": "Aether Core", "value": 6, "max": 6, "text": "", "hidden": false },
-    { "name": "Shields", "value": 0, "max": 0, "text": "None", "hidden": false },
-    { "name": "Stealth", "value": 0, "max": 0, "text": "Low", "hidden": false },
-    { "name": "Cargo", "value": 0, "max": 6, "text": "", "hidden": false },
-    { "name": "Stardust Heat", "value": 3, "max": 5, "text": "", "hidden": false }
+    { "name": "Hull", "value": 10, "max": 10, "text": "", "description": "The ship's health. Each point of damage takes 1 off. At 0 the ship is crippled, and the Pilot has to bring it down safely: 15 Successes within 3 rolls, or it crashes.", "hidden": false },
+    { "name": "Engine", "value": 0, "max": 0, "text": "Medium", "description": "Speed, and how hard the ship is to catch. Adds dice to flying rolls: Low +0, Medium +1, High +2, Extreme +3. Higher tiers make long journeys shorter.", "hidden": false },
+    { "name": "Aether Core", "value": 6, "max": 6, "text": "", "description": "The ship's power and fuel. Spend 1 charge for +2 dice on any ship roll, or to power a module or upgrade. A journey between continents costs 1 charge. Spending a charge at 0 risks Aether Instability.", "hidden": false },
+    { "name": "Shields", "value": 0, "max": 0, "text": "None", "description": "Take damage off every hit: Light 1, Medium 2, Heavy 3.", "hidden": false },
+    { "name": "Stealth", "value": 0, "max": 0, "text": "Low", "description": "How easily the ship slips past patrols and into closed airspace. It stays Low while the ship still broadcasts its Stardust registry.", "hidden": false },
+    { "name": "Cargo", "value": 0, "max": 6, "text": "", "description": "Units in use out of the hold's space. 1 unit is about a crate or a containment pod. Cargo is what Generate Resources sells.", "hidden": false },
+    { "name": "Stardust Heat", "value": 3, "max": 5, "text": "", "description": "How hard Stardust is looking for you. At 2 their docks scan you, at 3 their docks are closed to you, and at 4 you're actively hunted. Lie Low brings it down by 1.", "hidden": false }
   ],
 
   "moduleSlots": 2,
   "modules": [
-    { "id": "bridge", "name": "Bridge", "type": "Core", "effect": "Flying, navigation and mission planning.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false },
-    { "id": "engine-room", "name": "Engine Room", "type": "Core", "effect": "Powers the rotors. The Engine tier sets speed and how hard the ship is to catch.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false },
-    { "id": "crew-quarters", "name": "Crew Quarters", "type": "Core", "effect": "Room for up to 4 crew.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false },
-    { "id": "cargo-hold", "name": "Cargo Hold", "type": "Core", "effect": "6 units of cargo. Still fitted with six Stardust pod cradles.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false }
+    { "id": "bridge", "name": "Bridge", "type": "Core", "effect": "Flying, navigation and mission planning. The Captain works from here. If it's damaged: -2 dice on flying rolls.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false },
+    { "id": "engine-room", "name": "Engine Room", "type": "Core", "effect": "Powers the rotors. The Engine tier sets speed and how hard the ship is to catch. If it's damaged: -1 Engine tier.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false },
+    { "id": "crew-quarters", "name": "Crew Quarters", "type": "Core", "effect": "Room for up to 4 crew. Each crew member costs 1 Crystal of upkeep per downtime. If it's damaged: crew bonuses are halved.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false },
+    { "id": "cargo-hold", "name": "Cargo Hold", "type": "Core", "effect": "6 units of cargo. Still fitted with six Stardust pod cradles. If it's damaged: lose 1 unit of cargo.", "status": "active", "crew": "", "order": "", "bay": "", "hidden": false }
   ],
 
   "deckImage": "",
@@ -38,11 +38,11 @@
   "crew": [],
 
   "conditions": [
-    { "name": "Damaged Hull", "on": false, "hidden": false },
-    { "name": "Engine Strain", "on": false, "hidden": false },
-    { "name": "Aether Instability", "on": false, "hidden": false },
-    { "name": "Crew Conflict", "on": false, "hidden": false },
-    { "name": "System Malfunction", "on": false, "hidden": false }
+    { "name": "Damaged Hull", "on": false, "description": "The Hull is below half. -1 die on flying rolls until it's repaired above half.", "hidden": false },
+    { "name": "Engine Strain", "on": false, "description": "The engines have been pushed too hard. -1 Engine tier until a Repair order clears it.", "hidden": false },
+    { "name": "Aether Instability", "on": false, "description": "The Aether Core was drained past empty. Each charge spent risks a surge: roll a d10, and on 1 to 3 the ship takes 1 Hull damage. A Recharge order clears it.", "hidden": false },
+    { "name": "Crew Conflict", "on": false, "description": "Two crew members are at odds. Neither gives their role bonus until the party backs one of them.", "hidden": false },
+    { "name": "System Malfunction", "on": false, "description": "A module has stopped working. It does nothing until it's repaired (10 Successes).", "hidden": false }
   ],
   "activeEffects": [
     { "text": "Still broadcasting its Stardust registry: RT-07 \"Benevolence\".", "hidden": false }
@@ -67,14 +67,14 @@
   ],
 
   "turnActions": [
-    { "name": "Repair", "on": false, "hidden": false },
-    { "name": "Recharge", "on": false, "hidden": false },
-    { "name": "Craft / Install", "on": false, "hidden": false },
-    { "name": "Generate Resources", "on": false, "hidden": false },
-    { "name": "Recruit", "on": false, "hidden": false },
-    { "name": "Crew Task", "on": false, "hidden": false },
-    { "name": "Lie Low", "on": false, "hidden": false },
-    { "name": "Refit Identity", "on": false, "hidden": false }
+    { "name": "Repair", "on": false, "description": "Intelligence + Engineering, rolled until you stop. Every 2 Successes restores 1 Hull. A damaged module needs 10 Successes.", "hidden": false },
+    { "name": "Recharge", "on": false, "description": "+2 Aether charges. A full recharge at a city Crystal generator costs 3 Crystals.", "hidden": false },
+    { "name": "Craft / Install", "on": false, "description": "Work on installing a module or crafting an item. Progress carries over between turns.", "hidden": false },
+    { "name": "Generate Resources", "on": false, "description": "A social roll such as Charisma + Persuasion. You earn Crystals equal to your Successes times the cargo units in use (up to 6). Needs cargo to sell.", "hidden": false },
+    { "name": "Recruit", "on": false, "description": "At a dock: Charisma + Persuasion. 3 Successes finds a candidate for a role you name.", "hidden": false },
+    { "name": "Crew Task", "on": false, "description": "Spend time with one crew member. On 3 Successes their loyalty goes up one step.", "hidden": false },
+    { "name": "Lie Low", "on": false, "description": "Stardust Heat -1. You can't also Generate Resources this turn.", "hidden": false },
+    { "name": "Refit Identity", "on": false, "description": "Needs a Workshop Bay. 25 Successes in total for a forged registry and new paint: Stealth goes up one step.", "hidden": false }
   ],
   "turnNotes": "",
 
@@ -85,32 +85,32 @@
 
   "upgradeTree": [
     { "tier": 1, "name": "Base Systems", "unlock": "Available now", "locked": false, "hidden": false, "nodes": [
-      { "name": "Engine Mk I", "path": "", "effect": "", "status": "available", "hidden": false },
-      { "name": "Basic Cannons", "path": "", "effect": "", "status": "available", "hidden": false },
-      { "name": "Light Shield", "path": "", "effect": "", "status": "available", "hidden": false }
+      { "name": "Engine Mk I", "path": "", "effect": "Engine goes up one tier (Medium to High): +1 die on flying rolls, shorter long journeys, and the storms around the Polar Region can be flown. Standard install: 50 Crystals or 2 Components.", "status": "available", "hidden": false },
+      { "name": "Basic Cannons", "path": "", "effect": "The ship's first weapon. 6 dice, Damage Threshold 7, Critical 10. A Combat module that takes a bay. Standard install: 50 Crystals or 2 Components.", "status": "available", "hidden": false },
+      { "name": "Light Shield", "path": "", "effect": "Shields go from None to Light: every hit does 1 less damage. Standard install: 50 Crystals or 2 Components.", "status": "available", "hidden": false }
     ] },
     { "tier": 2, "name": "Specialisation", "unlock": "After the first boss. Choose one path per boss defeated.", "locked": true, "hidden": false, "nodes": [
-      { "name": "Aether Cannons II", "path": "Combat", "effect": "", "status": "locked", "hidden": false },
-      { "name": "Targeting AI", "path": "Combat", "effect": "", "status": "locked", "hidden": false },
-      { "name": "Workshop Bay", "path": "Utility", "effect": "", "status": "locked", "hidden": false },
-      { "name": "Scanner Array", "path": "Utility", "effect": "", "status": "locked", "hidden": false },
-      { "name": "Bond Chamber", "path": "Ethereal", "effect": "", "status": "locked", "hidden": false },
-      { "name": "Resonance Engine", "path": "Ethereal", "effect": "", "status": "locked", "hidden": false }
+      { "name": "Aether Cannons II", "path": "Combat", "effect": "Upgrades the cannons to 8 dice with Damage Threshold 6. Needs Basic Cannons. Standard install: 50 Crystals or 2 Components.", "status": "locked", "hidden": false },
+      { "name": "Targeting AI", "path": "Combat", "effect": "+2 dice on ship weapon rolls. If no one takes the Gunner station, the AI fires with 5 dice. Standard install: 50 Crystals or 2 Components.", "status": "locked", "hidden": false },
+      { "name": "Workshop Bay", "path": "Utility", "effect": "Crafting and install jobs need 25% fewer Successes, and the party can craft gear aboard. Needed for Refit Identity. Standard module: 50 Crystals or 2 Components.", "status": "locked", "hidden": false },
+      { "name": "Scanner Array", "path": "Utility", "effect": "+2 dice on scanning and navigation. Once per mission, reveal one hidden location nearby. Standard module: 50 Crystals or 2 Components.", "status": "locked", "hidden": false },
+      { "name": "Bond Chamber", "path": "Ethereal", "effect": "+2 dice on Willpower checks tied to the bond. Once per downtime, remove one bond-related Status. Advanced module: 100 Crystals or 4 Components.", "status": "locked", "hidden": false },
+      { "name": "Resonance Engine", "path": "Ethereal", "effect": "Once per mission, spend 2 Aether charges: every Ethereal aboard gets back one used spell slot. Advanced module: 100 Crystals or 4 Components.", "status": "locked", "hidden": false }
     ] },
     { "tier": 3, "name": "Hybrid Builds", "unlock": "Needs upgrades from two paths.", "locked": true, "hidden": false, "nodes": [
-      { "name": "Phase Weapons", "path": "Combat + Ethereal", "effect": "", "status": "locked", "hidden": false },
-      { "name": "Energy Efficiency Systems", "path": "Utility + Ethereal", "effect": "", "status": "locked", "hidden": false },
-      { "name": "Auto-Repair Combat Systems", "path": "Combat + Utility", "effect": "", "status": "locked", "hidden": false }
+      { "name": "Phase Weapons", "path": "Combat + Ethereal", "effect": "Spend 1 Aether charge when the ship fires: that attack ignores the target's shields. Advanced install: 100 Crystals or 4 Components.", "status": "locked", "hidden": false },
+      { "name": "Energy Efficiency Systems", "path": "Utility + Ethereal", "effect": "Aether Core +2 maximum, and a Recharge order restores 3 charges instead of 2. Advanced install: 100 Crystals or 4 Components.", "status": "locked", "hidden": false },
+      { "name": "Auto-Repair Combat Systems", "path": "Combat + Utility", "effect": "At the end of each ship combat round, repair 1 Hull. Once per combat, a damaged module comes back online by itself. Advanced install: 100 Crystals or 4 Components.", "status": "locked", "hidden": false }
     ] },
     { "tier": 4, "name": "Apex Systems", "unlock": "After three bosses.", "locked": true, "hidden": true, "nodes": [
-      { "name": "Event Horizon Core", "path": "", "effect": "", "status": "locked", "hidden": false },
-      { "name": "Prism Overdrive", "path": "", "effect": "", "status": "locked", "hidden": false },
-      { "name": "Temporal Relay", "path": "", "effect": "", "status": "locked", "hidden": false }
+      { "name": "Event Horizon Core", "path": "", "effect": "Once per mission, a gravity well pins enemy ships in place: they can't escape, and every ally gets +2 dice to hit them this round. Risk: the strain does 2 Hull damage. Uses an Ethereal upgrade slot.", "status": "locked", "hidden": false },
+      { "name": "Prism Overdrive", "path": "", "effect": "Once per mission, for one round: ship weapons +3 dice, Engine +1 tier and Shields +1 step. Risk: afterwards every module works at half strength until the next airship turn. Uses an Ethereal upgrade slot.", "status": "locked", "hidden": false },
+      { "name": "Temporal Relay", "path": "", "effect": "Once per mission, take one extra station action, or rewind the last ship roll and make it again. Risk: the ship loses its next round. Uses an Ethereal upgrade slot.", "status": "locked", "hidden": false }
     ] },
     { "tier": 5, "name": "Forbidden Upgrades", "unlock": "Through the black market or the story.", "locked": true, "hidden": true, "nodes": [
-      { "name": "Dual-Core Ethereal Engine", "path": "", "effect": "", "status": "locked", "hidden": false },
-      { "name": "Overbond Amplifier", "path": "", "effect": "", "status": "locked", "hidden": false },
-      { "name": "Black Veil Drive", "path": "", "effect": "", "status": "locked", "hidden": false }
+      { "name": "Dual-Core Ethereal Engine", "path": "", "effect": "A second Aether Core: maximum charges doubled, and two Ethereal upgrades can fire in the same round. Risk (1 to 3): both cores surge, giving Aether Instability and 3 Hull damage. Stardust Heat +1 when installed.", "status": "locked", "hidden": false },
+      { "name": "Overbond Amplifier", "path": "", "effect": "For one mission, every bonded Ethereal aboard gets +2 dice on their Ethereal powers and spells. Risk (1 to 3): the bond frays, and the Ethereal takes a Status of the GM's choice. Stardust Heat +1 when installed.", "status": "locked", "hidden": false },
+      { "name": "Black Veil Drive", "path": "", "effect": "Stealth becomes High while it runs, and the ship can slip into closed airspace unseen. Costs 1 Aether charge per journey. Risk (1 to 3): reality bends around the hull, and the GM rolls an airship event straight away. Stardust Heat +1 when installed.", "status": "locked", "hidden": false }
     ] }
   ],
 
