@@ -1,0 +1,95 @@
+{
+  "visible": true,
+
+  "tableTimes": [],
+  "tableOpen": "",
+  "homeStakePerWeek": 1,
+
+  "casinos": [
+    {
+      "id": "stardrop",
+      "name": "Stardrop Dice Houses",
+      "place": "Neon Drift Market",
+      "description": "Dice made from compressed stardust fragments, with a mind of their own.",
+      "hidden": false,
+      "rewards": [
+        { "tier": "Common", "items": ["Crystal Chips", "Weapon polishing", "A free meal", "A luxury hotel room", "A clothing voucher"] },
+        { "tier": "Uncommon", "items": ["Rare crafting materials", "Stardust-infused weapon parts", "A temporary stat booster", "A unique die", "An Ethereal Resonance Crystal", "A Black Market invitation"] },
+        { "tier": "Rare", "items": ["An experimental Stardust weapon", "A hidden dungeon map", "A VIP pass", "Reputation with a powerful merchant", "A favour from Stardust Inc."] }
+      ]
+    },
+    {
+      "id": "flux",
+      "name": "Flux Tables",
+      "place": "Neon Drift Market",
+      "description": "The only rule is that the rules never stay the same.",
+      "hidden": false,
+      "rewards": [
+        { "tier": "Standard", "items": ["Drinks on the house", "A luxury suite for the night", "A Stardust souvenir"] },
+        { "tier": "Good", "items": ["Rare crafting crystals", "A weapon mod", "Reputation with the casino owners"] },
+        { "tier": "Huge", "items": ["Ethereal Resonance Shards", "An illegal casino invitation", "A Blacklight Card Circle pass", "Experimental Stardust technology"] }
+      ]
+    }
+  ],
+
+  "games": [
+    {
+      "id": "stardrop",
+      "casino": "stardrop",
+      "name": "Stardrop",
+      "description": "The easiest game in the house. You and the dealer each roll one Stardrop Die, and the highest wins. If the dice match, the die awakens and you both roll again. Match twice and the pot doubles. Match three times and the whole casino stops to watch.",
+      "hidden": false,
+      "minStake": 1,
+      "maxStake": 1,
+      "target": 0,
+      "dealerStandsOn": 0,
+      "fluxFrom": 0,
+      "payouts": [
+        { "result": "win", "min": 2, "max": 5, "multiplier": 0, "reward": "" },
+        { "result": "double", "min": 5, "max": 10, "multiplier": 0, "reward": "" },
+        { "result": "jackpot", "min": 50, "max": 50, "multiplier": 0, "reward": "Rare" }
+      ]
+    },
+    {
+      "id": "blackhole",
+      "casino": "stardrop",
+      "name": "Black Hole",
+      "description": "High risk. Roll the die and add it to your total. Stop whenever you like, but go over 21 and the Black Hole takes everything. Then the dealer rolls. Closest to 21 wins.",
+      "hidden": false,
+      "minStake": 1,
+      "maxStake": 5,
+      "target": 21,
+      "dealerStandsOn": 17,
+      "fluxFrom": 0,
+      "payouts": [
+        { "result": "win", "min": 0, "max": 0, "multiplier": 1, "reward": "" },
+        { "result": "perfect", "min": 0, "max": 0, "multiplier": 2, "reward": "" }
+      ]
+    },
+    {
+      "id": "crystalhold",
+      "casino": "flux",
+      "name": "Crystal Hold",
+      "description": "Think Blackjack, until reality intervenes. Reach 20 without going over: Draw, Hold or Fold. At the start of every round the Flux Crystal rolls, and on a 5 or 6 the rules change.",
+      "hidden": false,
+      "minStake": 1,
+      "maxStake": 5,
+      "target": 20,
+      "dealerStandsOn": 16,
+      "fluxFrom": 5,
+      "payouts": [
+        { "result": "win", "min": 0, "max": 0, "multiplier": 1, "reward": "" },
+        { "result": "perfect", "min": 0, "max": 0, "multiplier": 2, "reward": "Good" }
+      ]
+    }
+  ],
+
+  "fluxEvents": [
+    { "id": "gravity", "name": "Gravity Surge", "text": "Lowest total now wins instead of highest.", "off": false },
+    { "id": "reverse", "name": "Reverse Flow", "text": "Every card flips: 6s become 9s and 9s become 6s.", "off": false },
+    { "id": "overcharge", "name": "Overcharge", "text": "The maximum score is now 30.", "off": false },
+    { "id": "frozen", "name": "Frozen Time", "text": "Nobody may draw this round.", "off": false },
+    { "id": "resonance", "name": "Crystal Resonance", "text": "Pairs count double: 7 + 7 = 28.", "off": false },
+    { "id": "void", "name": "Void Collapse", "text": "Everyone discards one random card.", "off": false }
+  ]
+}
