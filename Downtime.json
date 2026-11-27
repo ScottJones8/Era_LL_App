@@ -70,7 +70,7 @@
       "id": "crystalhold",
       "casino": "flux",
       "name": "Crystal Hold",
-      "description": "Think Blackjack, until reality intervenes. Reach 20 without going over: Draw, Hold or Fold. At the start of every round, yours and the dealer's, the Flux Crystal rolls, and on a 5 or 6 the rules change.",
+      "description": "Think Blackjack, until reality intervenes. Reach 20 without going over: Draw, Hold or Fold, and raise the bet at the table. At the start of every round, yours and the dealer's, the Flux Crystal rolls, and on a 5 or 6 the rules change.",
       "hidden": false,
       "minStake": 1,
       "maxStake": 5,
