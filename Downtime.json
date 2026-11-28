@@ -45,9 +45,9 @@
       "dealerStandsOn": 0,
       "fluxFrom": 0,
       "payouts": [
-        { "result": "win", "min": 2, "max": 5, "multiplier": 0, "reward": "" },
-        { "result": "double", "min": 5, "max": 10, "multiplier": 0, "reward": "" },
-        { "result": "jackpot", "min": 50, "max": 50, "multiplier": 0, "reward": "Rare" }
+        { "result": "win", "min": 1, "max": 1, "multiplier": 0, "reward": "" },
+        { "result": "double", "min": 2, "max": 2, "multiplier": 0, "reward": "" },
+        { "result": "jackpot", "min": 5, "max": 5, "multiplier": 0, "reward": "Rare" }
       ]
     },
     {
@@ -59,11 +59,11 @@
       "minStake": 1,
       "maxStake": 5,
       "target": 21,
-      "dealerStandsOn": 17,
+      "dealerStandsOn": 18,
       "fluxFrom": 0,
       "payouts": [
         { "result": "win", "min": 0, "max": 0, "multiplier": 1, "reward": "" },
-        { "result": "perfect", "min": 0, "max": 0, "multiplier": 2, "reward": "" }
+        { "result": "perfect", "min": 0, "max": 0, "multiplier": 1, "reward": "" }
       ]
     },
     {
@@ -75,11 +75,11 @@
       "minStake": 1,
       "maxStake": 5,
       "target": 20,
-      "dealerStandsOn": 16,
+      "dealerStandsOn": 15,
       "fluxFrom": 5,
       "payouts": [
         { "result": "win", "min": 0, "max": 0, "multiplier": 1, "reward": "" },
-        { "result": "perfect", "min": 0, "max": 0, "multiplier": 2, "reward": "Good" }
+        { "result": "perfect", "min": 0, "max": 0, "multiplier": 3, "reward": "Good" }
       ]
     },
     {
@@ -92,8 +92,8 @@
       "maxStake": 5,
       "payouts": [
         { "result": "once", "min": 0, "max": 0, "multiplier": 1, "reward": "" },
-        { "result": "twice", "min": 0, "max": 0, "multiplier": 3, "reward": "" },
-        { "result": "thrice", "min": 0, "max": 0, "multiplier": 10, "reward": "" }
+        { "result": "twice", "min": 0, "max": 0, "multiplier": 2, "reward": "" },
+        { "result": "thrice", "min": 0, "max": 0, "multiplier": 15, "reward": "" }
       ]
     },
     {
@@ -106,7 +106,7 @@
       "maxStake": 5,
       "payouts": [
         { "result": "win", "min": 0, "max": 0, "multiplier": 1, "reward": "" },
-        { "result": "resonant", "min": 0, "max": 0, "multiplier": 2, "reward": "" }
+        { "result": "resonant", "min": 0, "max": 0, "multiplier": 1, "reward": "" }
       ]
     },
     {
@@ -120,9 +120,9 @@
       "fluxFrom": 5,
       "payouts": [
         { "result": "safe5", "min": 0, "max": 0, "multiplier": 1, "reward": "" },
-        { "result": "safe7", "min": 0, "max": 0, "multiplier": 2, "reward": "" },
-        { "result": "safe8", "min": 0, "max": 0, "multiplier": 3, "reward": "" },
-        { "result": "clear", "min": 0, "max": 0, "multiplier": 8, "reward": "Good" }
+        { "result": "safe7", "min": 0, "max": 0, "multiplier": 3, "reward": "" },
+        { "result": "safe8", "min": 0, "max": 0, "multiplier": 5, "reward": "" },
+        { "result": "clear", "min": 0, "max": 0, "multiplier": 10, "reward": "Good" }
       ]
     }
   ],
